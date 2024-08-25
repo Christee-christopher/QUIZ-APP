@@ -82,10 +82,15 @@ const MAX_QUESTIONS=7
 startGame= () => {
     questionCounter =0;
     score=0;
-    availableQuestions = [...Questions]
+    availableQuestions = [...questions]
 
     console.log(availableQuestions);
+    getNewQuestion()
     
+}
+
+getNewQuestion = () =>{
+    questionCounter
 }
 
 
